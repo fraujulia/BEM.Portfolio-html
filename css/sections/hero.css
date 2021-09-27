@@ -1,0 +1,22 @@
+.hero{
+    background-image: url(../../images/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+}
+.header{
+    padding-top: 90px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
