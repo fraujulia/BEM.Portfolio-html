@@ -1,3 +1,15 @@
-.about__text:first-of-type{
-padding-bottom: 30px;
+.about__text{
+margin-bottom: 30px;
+}
+.about__text:last-child{
+margin-bottom: 0;
+}
+
+.about{
+    padding-top: 90px;
+    padding-bottom: 140px;
+}
+
+.about__title{
+    margin-bottom: 76px;
 }
