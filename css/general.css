@@ -51,4 +51,10 @@ html {
     line-height: 1.67;
 }
 
+.subtitle{
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.39;
+  color: #333333;
+}
 

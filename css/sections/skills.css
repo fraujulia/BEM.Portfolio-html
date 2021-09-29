@@ -1,71 +1,67 @@
-.skills{
-    padding-top: 93px;
-    padding-bottom: 145px;
-    background-color: #FFFAF2;
+.skills {
+  padding-top: 93px;
+  padding-bottom: 145px;
+  background-color: #fffaf2;
 }
 
-.skills__title{
-    margin-bottom: 86px;
+.skills__title {
+  margin-bottom: 86px;
 }
 
-.skills__image{
-width: 35%;
+.skills__image {
+  width: 35%;
 }
 
-.skills__row{
-    display: flex;
-    gap: 125px; 
+.skills__row {
+  display: flex;
+  gap: 125px;
+  align-items: center;
 }
 
-.skills__description{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.skills__description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.skills__description-item:first-of-type{
-    height: 65px;
+.skills__description-item:first-of-type {
+  height: 65px;
 }
 
-.skills__description-row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.skills__description-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.skills__description-title{
-    width: 190px;
-    flex-shrink: 0;
-    font-size: 1.8rem;
-    font-weight: 600;
-    line-height: 1.39;
-    color: #333333;
-    margin-bottom: 20px;
+.skills__description-title {
+  width: 190px;
+  flex-shrink: 0;
+  margin-bottom: 20px;
 }
 
-.skills__description-content{
-    font-size: 1.8rem;
-    line-height: 1.39;
-    color: #333333;
-
+.skills__description-content {
+  font-size: 1.8rem;
+  line-height: 1.39;
+  color: #333333;
 }
 
-.skills__description-content{
-    flex-grow: 1;
+.skills__description-content {
+  flex-grow: 1;
 }
 
-.progress-bar{
-    background-color: #F5D6AB;
-    height: 24px;
-    flex-grow: 1;
-    position: relative;
+.progress-bar {
+  background-color: #f5d6ab;
+  height: 24px;
+  flex-grow: 1;
+  position: relative;
 }
 
-.progress-bar__point{
-    position: absolute;
-    background-color: #C66C49;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    overflow: hidden;
+.progress-bar__point {
+  position: absolute;
+  background-color: #c66c49;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
 }
