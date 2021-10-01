@@ -1,0 +1,62 @@
+.portfolio {
+  padding-top: 93px;
+  padding-bottom: 139px;
+}
+
+.portfolio__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 125px;
+}
+
+.portfolio__title{
+  margin-bottom: 86px;
+}
+
+.portfolio__subtitle {
+  margin-bottom: 41px;
+}
+
+.button:nth-child(1) {
+  transform: rotate(180deg);
+}
+
+.portfolio__column-right{
+  display: flex;
+  flex-direction: column;
+  }
+
+.portfolio__text {
+  flex-grow: 1;
+}
+
+.portfolio__column-left {
+  padding-top: 66px;
+  display: grid;
+  gap: 30px;
+  grid-template:
+    "ship bridge" 32.95fr
+    "river bridge" 20.37fr
+    "river building" 32.95fr / 55.118fr 40.1575fr;
+}
+
+.portfolio__image {
+  width: 100%;
+  align-self: stretch;
+}
+
+.portfolio__image:nth-child(1) {
+  grid-area: ship;
+}
+
+.portfolio__image:nth-child(2) {
+  grid-area: bridge;
+}
+
+.portfolio__image:nth-child(3) {
+  grid-area: river;
+}
+
+.portfolio__image:nth-child(4) {
+  grid-area: building;
+}
