@@ -377,19 +377,19 @@ html {
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.39;
-  color: #333333; }
+  color: color-content; }
 
 .footer__text {
   font-size: 1.8rem;
   line-height: 1.67;
-  color: #333333; }
+  color: color-content; }
 
 .hero {
   background-image: url(../../images/Background.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  color: white;
+  color: #FFFFFF;
   display: flex;
   flex-direction: column; }
 
@@ -461,7 +461,7 @@ html {
 .skills {
   padding-top: 93px;
   padding-bottom: 145px;
-  background-color: #fffaf2; }
+  background-color: #FFFAF2; }
 
 .skills__title {
   margin-bottom: 86px; }
@@ -478,9 +478,8 @@ html {
   display: flex;
   flex-direction: column;
   gap: 20px; }
-
-.skills__description-item:first-of-type {
-  height: 65px; }
+  .skills__description .skills__description-item:first-of-type {
+    height: 65px; }
 
 .skills__description-row {
   display: flex;
@@ -501,14 +500,14 @@ html {
   flex-grow: 1; }
 
 .progress-bar {
-  background-color: #f5d6ab;
+  background-color: #F5D6AB;
   height: 24px;
   flex-grow: 1;
   position: relative; }
 
 .progress-bar__point {
   position: absolute;
-  background-color: #c66c49;
+  background-color: #C66C49;
   left: 0;
   top: 0;
   bottom: 0;

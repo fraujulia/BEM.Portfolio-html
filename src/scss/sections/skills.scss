@@ -1,7 +1,7 @@
 .skills {
   padding-top: 93px;
   padding-bottom: 145px;
-  background-color: #fffaf2;
+  background-color: $color-background;
 }
 
 .skills__title {
@@ -22,10 +22,9 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-.skills__description-item:first-of-type {
-  height: 65px;
+  .skills__description-item:first-of-type {
+    height: 65px;
+  }
 }
 
 .skills__description-row {
@@ -51,7 +50,7 @@
 }
 
 .progress-bar {
-  background-color: #f5d6ab;
+  background-color: $color-progress-bar-main;
   height: 24px;
   flex-grow: 1;
   position: relative;
@@ -59,7 +58,7 @@
 
 .progress-bar__point {
   position: absolute;
-  background-color: #c66c49;
+  background-color: $color-progress-bar-secondary;
   left: 0;
   top: 0;
   bottom: 0;
