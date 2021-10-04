@@ -38,29 +38,26 @@ html {
   width: 1110px;
   margin-left: auto;
   margin-right: auto;
+  @include media-tablet{
+    width: 90%
+  }
 }
 
 .title{
-    font-size: 2.4rem;
-    line-height: 1.2;
-    font-weight: 700;
+@include font-title;
 }
 
 .text{
-    font-size: 1.8rem;
-    line-height: 1.67;
+@include font-general;
 }
 
 .subtitle{
-  font-size: 1.8rem;
-  font-weight: 600;
-  line-height: 1.39;
+ @include font-subtitle;
   color: color-content;
 }
 
 .footer__text{
-  font-size: 1.8rem;
-  line-height: 1.67;
+  @include font-footer;
   color: color-content;
 }
 

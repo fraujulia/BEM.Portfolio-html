@@ -4,7 +4,45 @@ $color-background: #FFFAF2;
 $color-progress-bar-main: #F5D6AB;
 $color-progress-bar-secondary: #C66C49;
 
+@mixin font-general {
+    font-size: 1.8rem;
+    line-height: 1.67;
+    @include media-tablet{
+font-size: 1.4rem;
+    }
+}
 
+@mixin font-subtitle {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.39;
+}
+
+@mixin font-footer {
+    font-size: 1.8rem;
+  line-height: 1.67;
+}
+
+@mixin font-title {
+    font-size: 2.4rem;
+    line-height: 1.2;
+    font-weight: 700;
+    @include media-tablet{
+        font-size: 2rem;
+    }
+}
+
+@mixin media-tablet {
+    @media (max-width: 1200px) {
+        @content
+    }
+}
+
+@mixin media-phone {
+    @media (max-width: 767px) {
+        @content
+    }
+}
 
 
 @import "reset.scss";
