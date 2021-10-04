@@ -387,6 +387,9 @@ html {
   font-weight: 600;
   line-height: 1.39;
   color: color-content; }
+  @media (max-width: 767px) {
+    .subtitle {
+      font-size: 1.2rem; } }
 
 .footer__text {
   font-size: 1.8rem;
@@ -398,7 +401,7 @@ html {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   flex-direction: column; }
 
@@ -410,6 +413,10 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between; }
+  @media (max-width: 767px) {
+    .header__container {
+      display: block;
+      text-align: center; } }
 
 .logo {
   font-size: 2.4rem;
@@ -420,6 +427,9 @@ html {
   display: flex;
   justify-content: space-between;
   gap: 60px; }
+  @media (max-width: 767px) {
+    .header__list {
+      padding-top: 15px; } }
 
 .header__list-link {
   font-size: 1.8rem;
@@ -443,16 +453,26 @@ html {
   font-size: 6.4rem;
   line-height: 1.2;
   padding-bottom: 26px; }
+  @media (max-width: 767px) {
+    .hero__title {
+      font-size: 5.5rem;
+      text-align: center; } }
 
 .hero__text {
   font-size: 2.4rem;
   line-height: 1.2;
   padding-bottom: 106px; }
+  @media (max-width: 767px) {
+    .hero__text {
+      text-align: center; } }
 
 .hero__link {
   font-size: 1.8rem;
   line-height: 1.22;
   text-decoration: underline; }
+  @media (max-width: 767px) {
+    .hero__link {
+      text-align: center; } }
 
 .about__text {
   margin-bottom: 30px; }
@@ -463,25 +483,47 @@ html {
 .about {
   padding-top: 90px;
   padding-bottom: 140px; }
+  @media (max-width: 767px) {
+    .about {
+      padding-top: 50px;
+      padding-bottom: 90px; } }
 
 .about__title {
   margin-bottom: 76px; }
+  @media (max-width: 767px) {
+    .about__title {
+      margin-bottom: 50px; } }
 
 .skills {
   padding-top: 93px;
   padding-bottom: 145px;
-  background-color: #FFFAF2; }
+  background-color: #fffaf2; }
+  @media (max-width: 767px) {
+    .skills {
+      padding-top: 60px;
+      padding-bottom: 90px; } }
 
 .skills__title {
   margin-bottom: 86px; }
+  @media (max-width: 767px) {
+    .skills__title {
+      margin-bottom: 40px;
+      text-align: center; } }
 
 .skills__image {
   width: 35%; }
+  @media (max-width: 767px) {
+    .skills__image {
+      margin-bottom: 30px;
+      width: 100%; } }
 
 .skills__row {
   display: flex;
   gap: 125px;
   align-items: center; }
+  @media (max-width: 767px) {
+    .skills__row {
+      display: block; } }
 
 .skills__description {
   display: flex;
@@ -489,6 +531,9 @@ html {
   gap: 20px; }
   .skills__description .skills__description-item:first-of-type {
     height: 65px; }
+  @media (max-width: 767px) {
+    .skills__description {
+      gap: 10px; } }
 
 .skills__description-row {
   display: flex;
@@ -504,19 +549,22 @@ html {
   font-size: 1.8rem;
   line-height: 1.39;
   color: #333333; }
+  @media (max-width: 767px) {
+    .skills__description-content {
+      font-size: 1.2rem; } }
 
 .skills__description-content {
   flex-grow: 1; }
 
 .progress-bar {
-  background-color: #F5D6AB;
+  background-color: #f5d6ab;
   height: 24px;
   flex-grow: 1;
   position: relative; }
 
 .progress-bar__point {
   position: absolute;
-  background-color: #C66C49;
+  background-color: #c66c49;
   left: 0;
   top: 0;
   bottom: 0;
@@ -570,7 +618,7 @@ html {
   grid-area: building; }
 
 .footer {
-  background-color: #FFFAF2;
+  background-color: #fffaf2;
   padding-top: 93px;
   padding-bottom: 189px; }
 
@@ -602,3 +650,9 @@ html {
   bottom: 70px;
   right: 180px;
   transform: rotate(-90deg); }
+  @media (max-width: 767px) {
+    .top-button {
+      display: none; } }
+  @media (max-width: 1200px) {
+    .top-button {
+      display: none; } }

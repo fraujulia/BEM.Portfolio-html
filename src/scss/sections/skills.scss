@@ -2,20 +2,35 @@
   padding-top: 93px;
   padding-bottom: 145px;
   background-color: $color-background;
+  @include media-phone{
+    padding-top: 60px;
+    padding-bottom: 90px;
+    }
 }
 
 .skills__title {
   margin-bottom: 86px;
+  @include media-phone{
+    margin-bottom: 40px;
+    text-align: center;
+    }
 }
 
 .skills__image {
   width: 35%;
+  @include media-phone{
+  margin-bottom: 30px;
+  width: 100%;
+  }
 }
 
 .skills__row {
   display: flex;
   gap: 125px;
   align-items: center;
+  @include media-phone{
+    display: block;
+  }
 }
 
 .skills__description {
@@ -25,6 +40,9 @@
   .skills__description-item:first-of-type {
     height: 65px;
   }
+  @include media-phone{
+    gap: 10px;
+    }
 }
 
 .skills__description-row {
@@ -43,6 +61,10 @@
   font-size: 1.8rem;
   line-height: 1.39;
   color: #333333;
+  @include media-phone{
+    font-size: 1.2rem;
+    }
+  
 }
 
 .skills__description-content {

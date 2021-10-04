@@ -3,4 +3,10 @@
     bottom: 70px;
     right: 180px;
     transform: rotate(-90deg);
+    @include media-phone{
+        display: none;
+       }
+    @include media-tablet{
+        display: none;
+    }
 }
